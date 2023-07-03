@@ -58,7 +58,7 @@ namespace SendDanmaku
         {
             MainWindow mw = (MainWindow)Application.Current.MainWindow;
             ItemsControl log = (ItemsControl)mw.FindName("Log");
-            TabItem tab = (TabItem)log.Parent;
+            ScrollViewer tab = (ScrollViewer)log.Parent;
 
             Grid grid = new Grid();
             RowDefinition c1 = new RowDefinition();
